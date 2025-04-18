@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.App {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+/* .App::-webkit-scrollbar {
+    display: none;
+  }
+.App:hover::-webkit-scrollbar {
+    display: block;
+    background: #000;
+  } */
