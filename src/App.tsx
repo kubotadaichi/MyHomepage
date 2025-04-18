@@ -2,8 +2,8 @@ import './App.css'
 import { useEffect } from 'react';
 
 
-import Header from './components/Header'
-import { Dock } from 'primereact/dock';
+// import Header from './components/Header'
+// import { Dock } from 'primereact/dock';
 import 'primereact/resources/themes/lara-light-indigo/theme.css'; // テーマ
 import 'primereact/resources/primereact.min.css'; // コア
 import 'primeicons/primeicons.css'; // アイコン
@@ -19,11 +19,11 @@ import 'primeflex/primeflex.css'; // PrimeFlex（オプション）
 import Top from './components/Top';
 import Prolog from './components/Prolog';
 
-import TerminalDemo from './components/TerminalDemo';
-import SiteMap from './components/SiteMap';
+// import TerminalDemo from './components/TerminalDemo';
+// import SiteMap from './components/SiteMap';
 import Introduce from './components/Intoroduce';
 
-import Stickies from './components/Stickies';
+// import Stickies from './components/Stickies';
 
 
 

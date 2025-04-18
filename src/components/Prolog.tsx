@@ -1,4 +1,4 @@
-import InputArea from './InputArea'
+// import InputArea from './InputArea'
 import TerminalDemo from './TerminalDemo'
 
 export default function Prolog() {
