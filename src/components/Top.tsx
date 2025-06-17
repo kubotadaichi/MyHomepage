@@ -7,8 +7,8 @@
 
 const Top: React.FC<TopProps> = ({ bgColor, textColor }) => {
 
-  console.log("Top bgColor: " + bgColor);
-  console.log("Top textColor: " + textColor);
+  // console.log("Top bgColor: " + bgColor);
+  // console.log("Top textColor: " + textColor);
 
   return (
     <div className="grid grid-cols-2 place-content-center gap-1 h-dvh m-0" style={{ backgroundColor: bgColor }}>
