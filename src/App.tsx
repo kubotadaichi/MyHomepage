@@ -16,8 +16,8 @@ import 'primeflex/primeflex.css'; // PrimeFlex（オプション）
 // import ButtonDemo from './components/ButtonDemo';
 // import DialogDemo from './components/DialogDemo';
 // import FormDemo from './components/FormDemo';
-import Top from './components/Top';
-import Prolog from './components/Prolog';
+// import Top from './components/Top';
+// import Prolog from './components/Prolog';
 
 // import TerminalDemo from './components/TerminalDemo';
 // import SiteMap from './components/SiteMap';
@@ -68,17 +68,17 @@ function App() {
 
       <div className='flex flex-col m-0 p-0'>
         
-        <Top bgColor={colors[0][0]} textColor={colors[0][1]} />
+        {/* <Top bgColor={colors[0][0]} textColor={colors[0][1]} /> */}
 
-        <div className="grid grid-cols-2 place-content-center gap-1 h-dvh m-0" style={{ backgroundColor: colors[1][0] }}>
+        <div className="grid grid-cols-2 place-content-center gap-1 h-dvh m-0" style={{ backgroundColor: colors[1][0], color: colors[1][1] }}>
           {/* <SiteMap /> */}
           <Introduce />
 
         </div>
       
-        <div className="grid place-content-center h-dvh m-0" style={{ backgroundColor: colors[2][0] }}>
+        {/* <div className="grid place-content-center h-dvh m-0" style={{ backgroundColor: colors[2][0] }}>
             <Prolog />
-        </div>
+        </div> */}
       
       </div>
     </div>
